@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android
+        ="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:text="@string/help" />
+
+    <Button
+        android:id="@+id/ButtonRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_record"
+        android:textColor="#ffffff"
+        android:background="#4d4d4d" />
+
+    <TextView
+        android:id="@+id/TextSaid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="5"
+        android:text="@string/recorded_text"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/ButtonRead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/button_read"
+        android:textColor="#ffffff"
+        android:background="#4d4d4d" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:text="@string/try_help"/>
+
+    <EditText
+        android:id="@+id/editTextField"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapSentences"
+        android:background="#ffffff"/>
+</LinearLayout>
